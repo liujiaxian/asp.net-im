@@ -16,7 +16,7 @@
 #### 登录
 
 > 进行权限的区分，这里区分两种角色，管理员和普通用户。
-[](https://github.com/liujiaxian/asp.net-im/images/login.png)
+[](/images/login.png)
 
 #### 管理员
 
