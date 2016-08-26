@@ -51,3 +51,6 @@ E:\Stocket\new-source\new - Web Sockets chat - Server\Web Sockets chat - Server\
 E:\Stocket\new-source\new - Web Sockets chat - Server\Web Sockets chat - Server\bin\Debug\Newtonsoft.Json.dll
 E:\Stocket\new-source\new - Web Sockets chat - Server\Web Sockets chat - Server\bin\Debug\Newtonsoft.Json.pdb
 E:\Stocket\new-source\new - Web Sockets chat - Server\Web Sockets chat - Server\bin\Debug\Newtonsoft.Json.xml
+E:\Cases\Test\webim\new - Web Sockets chat - Server\Web Sockets chat - Server\bin\Debug\Web Sockets Test - Server.exe.config
+E:\Cases\Test\webim\new - Web Sockets chat - Server\Web Sockets chat - Server\obj\Debug\Web Sockets Test - Server.exe
+E:\Cases\Test\webim\new - Web Sockets chat - Server\Web Sockets chat - Server\obj\Debug\Web Sockets Test - Server.pdb

@@ -190,7 +190,7 @@
 
         if (WebSocketsExist) {
             //Log("您的浏览器支持WebSocket. 您可以尝试连接到聊天服务器!", "OK");
-            document.getElementById("Connection").value = "169.254.123.204:4141/chat";
+            document.getElementById("Connection").value = "169.254.133.141:4141/chat";
         } else {
             //Log("您的浏览器不支持WebSocket。请选择其他的浏览器再尝试连接服务器。", "ERROR");
             //document.getElementById("ToggleConnection").disabled = true;
@@ -324,7 +324,11 @@
 
                         <div class="ibox-title">
                             <small class="pull-right text-muted">
-                                <input type="button" onclick="sendall()" value="群发" />&nbsp;最新消息：<%=newtime %></small> 与 <span class="txtchatwindow"><%
+                                <%if (user.userRole==1)
+                                  {%>
+                                <input type="button" onclick="sendall()" value="群发" />&nbsp;
+                                      
+                                  <%} %>最新消息：<%=newtime %></small> 与 <span class="txtchatwindow"><%
                                                                                                                                                          if (user.userRole != 1)
                                                                                                                                                          {
                                                                                                                                                              Response.Write("admin");
